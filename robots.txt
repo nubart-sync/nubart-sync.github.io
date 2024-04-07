@@ -1,0 +1,15 @@
+# robots.txt
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Sitemap: https://nubart-sync.com/sitemap.xml
+
+Disallow: /pdf/
+Disallow: *.pdf
+
+
+
+
+
+
+
