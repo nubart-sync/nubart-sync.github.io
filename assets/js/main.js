@@ -177,7 +177,7 @@
 
   /**
    * Testimonials slider
-   */
+
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -192,7 +192,7 @@
       clickable: true
     }
   });
-
+ */
   function getCurrentScroll() {
     return window.pageYOffset || document.documentElement.scrollTop;
   }
@@ -239,7 +239,7 @@
 
   /**
    * Portfolio details slider
-   */
+
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
@@ -253,6 +253,7 @@
       clickable: true
     }
   });
+*/
 
   /**
    * Animation on scroll
