@@ -19,100 +19,62 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- End Clearbit -->
 
     <!-- structured data -->
-
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "AggregateOffer",
+            "@type": "Product",
             "name": "Nubart Sync",
             "description": "Nubart Sync consente ai musei e ad altre aziende di trasmettere il suono sincronizzato di un video agli smartphone delle persone. Inizia con un costo di installazione una tantum e scelgli un piano mensile o annuale che si adatti alle vostre esigenze video.",
             "url": "https://nubart-sync.com/it/prezzi.html",
+            "isPartOf": {
+                "@type": "WebSite",
+                "url": "https://www.nubart.eu/"
+            },
             "offers": [
                 {
                     "@type": "Offer",
+                    "name": "Costo di installazione",
                     "price": "1500.00",
-                    "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "1500.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "name": "Costo di installazione"
-                    }
+                    "priceCurrency": "EUR"
                 },
                 {
                     "@type": "Offer",
+                    "name": "Canone mensile",
                     "price": "199.00",
                     "priceCurrency": "EUR",
                     "priceSpecification": {
                         "@type": "PriceSpecification",
                         "price": "199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "includedInPrice": {
-                            "@type": "QuantitativeValue",
-                            "unitText": "video",
-                            "value": 5
-                        },
-                        "priceComponent": [
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Canone mensile",
-                                "price": "199.00",
-                                "priceCurrency": "EUR"
-                            },
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Video aggiuntivo",
-                                "price": "25.00",
-                                "priceCurrency": "EUR"
-                            }
-                        ]
+                        "priceCurrency": "EUR"
+                    },
+                    "additionalType": "Video aggiuntivo",
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "price": "25.00",
+                        "priceCurrency": "EUR"
                     }
                 },
                 {
                     "@type": "Offer",
-                    "price": "2,199.00",
+                    "name": "Canone annuale",
+                    "price": "2199.00",
                     "priceCurrency": "EUR",
                     "priceSpecification": {
                         "@type": "PriceSpecification",
-                        "price": "2,199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "includedInPrice": {
-                            "@type": "QuantitativeValue",
-                            "unitText": "video",
-                            "value": 5
-                        },
-                        "priceComponent": [
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Canone annuale",
-                                "price": "2,199.00",
-                                "priceCurrency": "EUR"
-                            },
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Video aggiuntivo",
-                                "price": "275.00",
-                                "priceCurrency": "EUR"
-                            }
-                        ]
+                        "price": "2199.00",
+                        "priceCurrency": "EUR"
+                    },
+                    "additionalType": "Video aggiuntivo",
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "price": "275.00",
+                        "priceCurrency": "EUR"
                     }
                 }
-            ],
-            "brand": {
-                "@type": "Organization",
-                "name": "Nubart"
-            },
-            "image": [
-                "https://nubart-sync.com/assets/img/nubart-sync.webp",
-                "https://nubart-sync.com/assets/img/nubart-sync.png",
-                "https://nubart-sync.com/assets/img/nubart-sync-logo.webp",
-                "https://nubart-sync.com/assets/img/nubart-sync-logo.png"
             ]
         }
     </script>
+
     <!-- End Structured data -->
 
     <title>Prezzi Nubart Sync: Streaming Audio Video su Smartphone</title>
