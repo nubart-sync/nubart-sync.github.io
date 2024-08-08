@@ -23,42 +23,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "AggregateOffer",
+            "@type": "Product",
             "name": "Nubart Sync",
-            "description": "Nubart Sync empowers museums and other businesses to stream the synchronised sound of a video to people's smartphones. Get started with a one-time setup fee and choose a monthly or yearly plan that fits your video needs.",
+            "description": "Nubart Sync empowers museums and other businesses to stream the synchronized sound of a video to people's smartphones. Get started with a one-time setup fee and choose a monthly or yearly plan that fits your video needs.",
             "url": "https://nubart-sync.com/pricing.html",
             "offers": [
                 {
                     "@type": "Offer",
+                    "name": "Setup Fee",
                     "price": "1500.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "1500.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": "false",
-                        "name": "Setup Fee"
-                    }
+                    "valueAddedTaxIncluded": false
                 },
                 {
                     "@type": "Offer",
+                    "name": "Monthly Plan",
                     "price": "199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": "false"
-                    },
-                    "priceComponent": [
+                    "valueAddedTaxIncluded": false,
+                    "priceSpecification": [
                         {
-                            "@type": "CompoundPriceSpecification",
-                            "name": "Monthly Fee",
-                            "price": "199.00",
-                            "priceCurrency": "EUR"
-                        },
-                        {
-                            "@type": "CompoundPriceSpecification",
+                            "@type": "PriceSpecification",
                             "name": "Additional Video",
                             "price": "25.00",
                             "priceCurrency": "EUR"
@@ -67,23 +52,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 },
                 {
                     "@type": "Offer",
-                    "price": "2,199.00",
+                    "name": "Yearly Plan",
+                    "price": "2199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "2,199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": "false"
-                    },
-                    "priceComponent": [
+                    "valueAddedTaxIncluded": false,
+                    "priceSpecification": [
                         {
-                            "@type": "CompoundPriceSpecification",
-                            "name": "Yearly Fee",
-                            "price": "2,199.00",
-                            "priceCurrency": "EUR"
-                        },
-                        {
-                            "@type": "CompoundPriceSpecification",
+                            "@type": "PriceSpecification",
                             "name": "Additional Video",
                             "price": "275.00",
                             "priceCurrency": "EUR"
