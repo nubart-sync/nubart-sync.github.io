@@ -18,7 +18,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="https://tag.clearbitscripts.com/v1/pk_de925e18912c21d759ab2e1d4449f0a2/tags.js" referrerpolicy="strict-origin-when-cross-origin"></script>
     <!-- End Clearbit -->
 
-    <!-- structured data -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -26,9 +25,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             "name": "Nubart Sync",
             "description": "Nubart Sync consente ai musei e ad altre aziende di trasmettere il suono sincronizzato di un video agli smartphone delle persone. Inizia con un costo di installazione una tantum e scelgli un piano mensile o annuale che si adatti alle vostre esigenze video.",
             "url": "https://nubart-sync.com/it/prezzi.html",
-            "isPartOf": {
-                "@type": "WebSite",
-                "url": "https://www.nubart.eu/"
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://nubart-sync.com/it/"
             },
             "offers": [
                 {
@@ -42,38 +41,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     "name": "Canone mensile",
                     "price": "199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "199.00",
-                        "priceCurrency": "EUR"
-                    },
-                    "additionalType": "Video aggiuntivo",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "25.00",
-                        "priceCurrency": "EUR"
-                    }
+                    "priceSpecification": [
+                        {
+                            "@type": "PriceSpecification",
+                            "price": "199.00",
+                            "priceCurrency": "EUR"
+                        },
+                        {
+                            "@type": "PriceSpecification",
+                            "name": "Video aggiuntivo",
+                            "price": "25.00",
+                            "priceCurrency": "EUR"
+                        }
+                    ]
                 },
                 {
                     "@type": "Offer",
                     "name": "Canone annuale",
                     "price": "2199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "2199.00",
-                        "priceCurrency": "EUR"
-                    },
-                    "additionalType": "Video aggiuntivo",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "275.00",
-                        "priceCurrency": "EUR"
-                    }
+                    "priceSpecification": [
+                        {
+                            "@type": "PriceSpecification",
+                            "price": "2199.00",
+                            "priceCurrency": "EUR"
+                        },
+                        {
+                            "@type": "PriceSpecification",
+                            "name": "Video aggiuntivo",
+                            "price": "275.00",
+                            "priceCurrency": "EUR"
+                        }
+                    ]
                 }
             ]
         }
     </script>
+
 
     <!-- End Structured data -->
 
