@@ -23,93 +23,59 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "AggregateOffer",
+            "@type": "Product",
             "name": "Nubart Sync",
-            "description": "Nubart Sync permet aux musées et autres entreprises de diffuser le son synchronisé d'une vidéo sur les smartphones des visiteurs. Commencez avec des frais d'installation uniques et choisissez un plan mensuel ou annuel adapté à vos besoins en matière de vidéo.",
+            "description": "Nubart Sync permet aux musées et autres entreprises de transmettre le son synchronisé d'une vidéo sur les smartphones des visiteurs. Commencez par un frais d'installation unique et choisissez un plan mensuel ou annuel pour répondre à vos besoins en matière de vidéo.",
             "url": "https://nubart-sync.com/fr/prix.html",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://nubart-sync.com/fr/"
+            },
             "offers": [
                 {
                     "@type": "Offer",
+                    "name": "Frais de mise en place",
                     "price": "1500.00",
-                    "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "1500.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "name": "Setup Fee"
-                    }
+                    "priceCurrency": "EUR"
                 },
                 {
                     "@type": "Offer",
+                    "name": "Redevance mensuelle",
                     "price": "199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "includedInPrice": {
-                            "@type": "QuantitativeValue",
-                            "unitText": "video",
-                            "value": 5
+                    "priceSpecification": [
+                        {
+                            "@type": "PriceSpecification",
+                            "price": "199.00",
+                            "priceCurrency": "EUR"
                         },
-                        "priceComponent": [
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Monthly Fee",
-                                "price": "199.00",
-                                "priceCurrency": "EUR"
-                            },
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Additional Video",
-                                "price": "25.00",
-                                "priceCurrency": "EUR"
-                            }
-                        ]
-                    }
+                        {
+                            "@type": "PriceSpecification",
+                            "name": "Vidéo supplémentaire",
+                            "price": "25.00",
+                            "priceCurrency": "EUR"
+                        }
+                    ]
                 },
                 {
                     "@type": "Offer",
-                    "price": "2,199.00",
+                    "name": "Redevance annuelle",
+                    "price": "2199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "2,199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "includedInPrice": {
-                            "@type": "QuantitativeValue",
-                            "unitText": "video",
-                            "value": 5
+                    "priceSpecification": [
+                        {
+                            "@type": "PriceSpecification",
+                            "price": "2199.00",
+                            "priceCurrency": "EUR"
                         },
-                        "priceComponent": [
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Yearly Fee",
-                                "price": "2,199.00",
-                                "priceCurrency": "EUR"
-                            },
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Additional Video",
-                                "price": "275.00",
-                                "priceCurrency": "EUR"
-                            }
-                        ]
-                    }
+                        {
+                            "@type": "PriceSpecification",
+                            "name": "Vidéo supplémentaire",
+                            "price": "275.00",
+                            "priceCurrency": "EUR"
+                        }
+                    ]
                 }
-            ],
-            "brand": {
-                "@type": "Organization",
-                "name": "Nubart"
-            },
-            "image": [
-                "https://nubart-sync.com/assets/img/nubart-sync.webp",
-                "https://nubart-sync.com/assets/img/nubart-sync.png",
-                "https://nubart-sync.com/assets/img/nubart-sync-logo.webp",
-                "https://nubart-sync.com/assets/img/nubart-sync-logo.png"
             ]
         }
     </script>

@@ -20,99 +20,67 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- structured data -->
 
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "AggregateOffer",
+            "@type": "Product",
             "name": "Nubart Sync",
-            "description": "Nubart Sync permite a museos y otras empresas transmitir el sonido de un vídeo a los teléfonos móviles, perfectamente sincronizado. Empieza con una cuota única de instalación y elige un plan mensual o anual que se adapte a tus necesidades.",
+            "description": "Nubart Sync permite transmitir el sonido sincronizado de un vídeo a los teléfonos inteligentes de la gente. Empiece con una cuota única de instalación y elija un plan mensual o anual que se adapte a sus necesidades.",
             "url": "https://nubart-sync.com/es/precio.html",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://nubart-sync.com/es/"
+            },
             "offers": [
                 {
                     "@type": "Offer",
+                    "name": "Setup Fee",
                     "price": "1500.00",
-                    "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "1500.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "name": "Instalación"
-                    }
+                    "priceCurrency": "EUR"
                 },
                 {
                     "@type": "Offer",
+                    "name": "Plan mensual",
                     "price": "199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "includedInPrice": {
-                            "@type": "QuantitativeValue",
-                            "unitText": "video",
-                            "value": 5
+                    "priceSpecification": [
+                        {
+                            "@type": "PriceSpecification",
+                            "price": "199.00",
+                            "priceCurrency": "EUR"
                         },
-                        "priceComponent": [
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Cuota mensual",
-                                "price": "199.00",
-                                "priceCurrency": "EUR"
-                            },
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Vídeo adicional",
-                                "price": "25.00",
-                                "priceCurrency": "EUR"
-                            }
-                        ]
-                    }
+                        {
+                            "@type": "PriceSpecification",
+                            "name": "Vídeo adicional",
+                            "price": "25.00",
+                            "priceCurrency": "EUR"
+                        }
+                    ]
                 },
                 {
                     "@type": "Offer",
-                    "price": "2,199.00",
+                    "name": "Plan anual",
+                    "price": "2199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "2,199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "includedInPrice": {
-                            "@type": "QuantitativeValue",
-                            "unitText": "video",
-                            "value": 5
+                    "priceSpecification": [
+                        {
+                            "@type": "PriceSpecification",
+                            "price": "2199.00",
+                            "priceCurrency": "EUR"
                         },
-                        "priceComponent": [
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Cuota anual",
-                                "price": "2,199.00",
-                                "priceCurrency": "EUR"
-                            },
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Vídeo adicional",
-                                "price": "275.00",
-                                "priceCurrency": "EUR"
-                            }
-                        ]
-                    }
+                        {
+                            "@type": "PriceSpecification",
+                            "name": "Vídeo adicional",
+                            "price": "275.00",
+                            "priceCurrency": "EUR"
+                        }
+                    ]
                 }
-            ],
-            "brand": {
-                "@type": "Organization",
-                "name": "Nubart"
-            },
-            "image": [
-                "https://nubart-sync.com/assets/img/nubart-sync.webp",
-                "https://nubart-sync.com/assets/img/nubart-sync.png",
-                "https://nubart-sync.com/assets/img/nubart-sync-logo.webp",
-                "https://nubart-sync.com/assets/img/nubart-sync-logo.png"
             ]
         }
     </script>
+
     <!-- End Structured data -->
 
     <title>Precios Nubart Sync: Streaming del sonido de tus vídeos</title>

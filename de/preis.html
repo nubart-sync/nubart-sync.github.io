@@ -19,97 +19,64 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- End Clearbit -->
 
     <!-- structured data -->
+    <!-- structured data -->
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "AggregateOffer",
+            "@type": "Product",
             "name": "Nubart Sync",
-            "description": "Nubart Sync ermöglicht es Museen und anderen Unternehmen, den synchronisierten Ton eines Videos auf die Smartphones der Zuschauer zu streamen. Sie zahlen eine einmalige Einrichtungsgebühr und wählen dann einen monatlichen oder jährlichen Plan, der Ihren Videobedürfnissen entspricht.",
+            "description": "Nubart Sync ermöglicht es Museen und anderen Unternehmen, den synchronisierten Ton eines Videos auf die Smartphones der Besucher zu übertragen. Beginnen Sie mit einer einmaligen Installationsgebühr und wählen Sie einen Monats- oder Jahresplan, der Ihrem Videobedarf entspricht.",
             "url": "https://nubart-sync.com/de/preis.html",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://nubart-sync.com/de/"
+            },
             "offers": [
                 {
                     "@type": "Offer",
+                    "name": "Einrichtungsgebühr",
                     "price": "1500.00",
-                    "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "1500.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "name": "Einrichtung"
-                    }
+                    "priceCurrency": "EUR"
                 },
                 {
                     "@type": "Offer",
+                    "name": "Monatsgebühr",
                     "price": "199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "includedInPrice": {
-                            "@type": "QuantitativeValue",
-                            "unitText": "video",
-                            "value": 5
+                    "priceSpecification": [
+                        {
+                            "@type": "PriceSpecification",
+                            "price": "199.00",
+                            "priceCurrency": "EUR"
                         },
-                        "priceComponent": [
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Monatsgebühr",
-                                "price": "199.00",
-                                "priceCurrency": "EUR"
-                            },
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Weiteres Video",
-                                "price": "25.00",
-                                "priceCurrency": "EUR"
-                            }
-                        ]
-                    }
+                        {
+                            "@type": "PriceSpecification",
+                            "name": "Zusätzliches Video",
+                            "price": "25.00",
+                            "priceCurrency": "EUR"
+                        }
+                    ]
                 },
                 {
                     "@type": "Offer",
-                    "price": "2,199.00",
+                    "name": "Jahresgebühr",
+                    "price": "2199.00",
                     "priceCurrency": "EUR",
-                    "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "price": "2,199.00",
-                        "priceCurrency": "EUR",
-                        "valueAddedTaxIncluded": false,
-                        "includedInPrice": {
-                            "@type": "QuantitativeValue",
-                            "unitText": "video",
-                            "value": 5
+                    "priceSpecification": [
+                        {
+                            "@type": "PriceSpecification",
+                            "price": "2199.00",
+                            "priceCurrency": "EUR"
                         },
-                        "priceComponent": [
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Jahresgebühr",
-                                "price": "2,199.00",
-                                "priceCurrency": "EUR"
-                            },
-                            {
-                                "@type": "CompoundPriceSpecification",
-                                "name": "Weiteres Video",
-                                "price": "275.00",
-                                "priceCurrency": "EUR"
-                            }
-                        ]
-                    }
+                        {
+                            "@type": "PriceSpecification",
+                            "name": "Zusätzliches Video",
+                            "price": "275.00",
+                            "priceCurrency": "EUR"
+                        }
+                    ]
                 }
-            ],
-            "brand": {
-                "@type": "Organization",
-                "name": "Nubart"
-            },
-            "image": [
-                "https://nubart-sync.com/assets/img/nubart-sync.webp",
-                "https://nubart-sync.com/assets/img/nubart-sync.png",
-                "https://nubart-sync.com/assets/img/nubart-sync-logo.webp",
-                "https://nubart-sync.com/assets/img/nubart-sync-logo.png"
             ]
         }
     </script>
