@@ -19,34 +19,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-    <!-- structured data -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Nubart Sync",
-            "description": "Nubart VideoSync-System paart Videos vor Ort mit synchronisierten Soundtracks. Die synchronisierte Tonspur wird über einen QR-Code auf die Smartphones der Benutzer gestreamt, in der vorher ausgewählen Sprache. Nubart Sync ist vollständig internet- und browserbasiert. Es werden keine Apps, kein Broadcast und keine spezielle Hardware benötigt. Hervorragend geeignet für Digital Signage, DooH, Videowände, Mappings und Projektionen",
+            "@id": "https://nubart-sync.com/#service",
+            "name": "Nubart SYNC",
             "url": "https://nubart-sync.com/de/",
-            "brand": {
+            "inLanguage": "de",
+            "description": "Nubart SYNC verbindet vor Ort installierte Videodisplays mit synchronisiertem mehrsprachigem Audio, das über QR-Code auf die Smartphones der Besucher gestreamt wird. Keine App, keine Hardware, kein Broadcasting – vollständig browserbasiert und latenzfrei. Ideal für Digital Signage, DooH, Außenbildschirme und Projection Mappings. In mehreren Ländern patentiert, einschließlich EU, Australien und anstehend in den USA.",
+            "additionalType": "https://schema.org/TechnologyService",
+            "areaServed": "Worldwide",
+            "provider": {
                 "@type": "Organization",
-                "name": "Nubart"
+                "@id": "https://www.nubart.eu/#organization",
+                "name": "Nubart GmbH",
+                "url": "https://www.nubart.eu/de/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.nubart.eu/assets/img/logo-nubart.png"
+                }
             },
             "image": [
                 "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.webp",
                 "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.png",
                 "https://nubart-sync.com/assets/img/schema/4x3-nubart-sync.png",
-
                 "https://nubart-sync.com/assets/img/schema/16x9-nubart-sync-multilingual-museums.png"
             ],
-            "category": "SoftwareApplication",
-            "areaServed": "Worldwide",
-
-            "offers": {
-                "@type": "Offer",
-                "url": "https://nubart-sync.com/de/preis.html",
-                "description": "Besuchen Sie unsere Preisseite für detaillierte Informationen zu Einrichtungsgebühren, Monats- und Jahresplänen."
+            "potentialAction": {
+                "@type": "ContactAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nubart-sync.com/de/preis.html",
+                    "description": "Kontaktieren Sie den Vertrieb für Preis- und Serviceinformationen"
+                }
             },
-            "serviceType": "Verknüpfung von Audio mit Videos vor Ort",
             "video": {
                 "@type": "VideoObject",
                 "name": "Nubart Sync - VideoSync-System zur Audio-video Synchronisierung: Video vor Ort, Audio im Smartphone",
@@ -57,8 +64,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 "embedUrl": "https://player.vimeo.com/video/476386299"
             }
         }
-
     </script>
+
     <!-- End Structured data -->
 
     <title>VideoSync-System zur Synchronisierung von Audio und Video auf Smartphones über QR-Code</title>

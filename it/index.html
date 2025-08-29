@@ -18,28 +18,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Nubart Sync",
-            "description": "Nubart Sync abbina i video sul posto a colonne sonore sincronizzate. La colonna sonora sincronizzata viene trasmessa agli smartphone delle persone tramite un codice QR. Gli utenti possono selezionare una lingua. Nubart Sync è completamente basato su internet e sul browser. Non sono necessarie applicazioni, trasmissioni o hardware dedicati. È ideale per digital signage, DooH e schermi video esterni. Adatto anche per mappature e proiezioni.",
+            "@id": "https://nubart-sync.com/#service",
+            "name": "Nubart SYNC",
             "url": "https://nubart-sync.com/it/",
-            "brand": {
+            "inLanguage": "it",
+            "description": "Nubart SYNC collega i display video installati in loco con audio multilingue sincronizzato trasmesso sui smartphone dei visitatori tramite codice QR. Senza app, senza hardware, senza broadcasting: completamente basato su browser e senza latenza. Ideale per digital signage, DooH, schermi esterni e projection mapping. Brevettato in diversi paesi inclusi UE, Australia e in attesa negli Stati Uniti.",
+            "additionalType": "https://schema.org/TechnologyService",
+            "areaServed": "Worldwide",
+            "provider": {
                 "@type": "Organization",
-                "name": "Nubart"
+                "@id": "https://www.nubart.eu/#organization",
+                "name": "Nubart GmbH",
+                "url": "https://www.nubart.eu/it/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.nubart.eu/assets/img/logo-nubart.png"
+                }
             },
             "image": [
                 "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.webp",
                 "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.png",
                 "https://nubart-sync.com/assets/img/schema/4x3-nubart-sync.png",
-
                 "https://nubart-sync.com/assets/img/schema/16x9-nubart-sync-multilingual-museums.png"
             ],
-            "category": "SoftwareApplication",
-            "areaServed": "Worldwide",
-            "offers": {
-                "@type": "Offer",
-                "url": "https://nubart-sync.com/it/prezzi.html",
-                "description": "Visita la pagina dei prezzi per sapere piu sui costi di installazione e sui piani mensili e annuali."
+            "potentialAction": {
+                "@type": "ContactAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nubart-sync.com/it/prezzi.html",
+                    "description": "Contatta il team vendite per informazioni su prezzi e servizi"
+                }
             },
-            "serviceType": "Abbinamento di audio e video in loco",
             "video": {
                 "@type": "VideoObject",
                 "name": "Nubart Sync - Sincronizzazione audio-video: video in loco, audio sul tuo smartphone.",
@@ -52,6 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
 
     </script>
+
 
     <title>Trasmetti l'audio sincronizzato dei video pubblici tramite QR</title>
 

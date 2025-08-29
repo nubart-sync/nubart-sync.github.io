@@ -17,33 +17,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script type="text/plain" data-category="analytics" src="https://tag.clearbitscripts.com/v1/pk_de925e18912c21d759ab2e1d4449f0a2/tags.js" referrerpolicy="strict-origin-when-cross-origin"></script>
     <!-- End Clearbit -->
 
-    <!-- structured data -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "Service",
-            "name": "Nubart Sync",
-            "description": "Nubart Sync associe des vidéos sur site à des bandes sonores synchronisées. La bande sonore synchronisée est diffusée sur les smartphones des utilisateurs via un code QR. Les utilisateurs peuvent sélectionner sa langue. Nubart Sync est entièrement basé sur l'internet et le navigateur. Aucune application, diffusion ou matériel dédié n'est nécessaire. Idéal pour la signalisation numérique, le DooH et les écrans vidéo extérieurs. Convient également pour les mappings et les projections.",
+            "@id": "https://nubart-sync.com/#service",
+            "name": "Nubart SYNC",
             "url": "https://nubart-sync.com/fr/",
-            "brand": {
+            "inLanguage": "es",
+            "description": "Nubart SYNC conecta pantallas de vídeo instaladas in situ con audio multiidioma sincronizado que se transmite a los smartphones de los visitantes mediante código QR. Sin app, sin hardware, sin broadcasting: completamente basado en navegador y sin latencia. Ideal para digital signage, DooH, pantallas exteriores y projection mappings. Patentado en varios países incluyendo la UE, Australia y pendiente en EE.UU.",
+            "additionalType": "https://schema.org/TechnologyService",
+            "areaServed": "Worldwide",
+            "provider": {
                 "@type": "Organization",
-                "name": "Nubart"
+                "@id": "https://www.nubart.eu/#organization",
+                "name": "Nubart GmbH",
+                "url": "https://www.nubart.eu/fr/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.nubart.eu/assets/img/logo-nubart.png"
+                }
             },
             "image": [
                 "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.webp",
                 "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.png",
                 "https://nubart-sync.com/assets/img/schema/4x3-nubart-sync.png",
-
                 "https://nubart-sync.com/assets/img/schema/16x9-nubart-sync-multilingual-museums.png"
             ],
-            "category": "SoftwareApplication",
-            "areaServed": "Worldwide",
-            "offers": {
-                "@type": "Offer",
-                "url": "https://nubart-sync.com/fr/prix.html",
-                "description": "Visitez notre page de tarification pour obtenir des informations détaillées sur les frais d'installation, les plans mensuels et annuels."
+            "potentialAction": {
+                "@type": "ContactAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nubart-sync.com/fr/prix.html",
+                    "description": "Contactez le service commercial pour avoir des infos sur les prix et les services."
+                }
             },
-            "serviceType": "Jumelage de l'audio avec des vidéos sur site",
             "video": {
                 "@type": "VideoObject",
                 "name": "Nubart Sync - Synchronisation audio-video : la vidéo sur site, l'audio sur votre smartphone.",
@@ -52,10 +60,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 "uploadDate": "2023-01-12",
                 "contentUrl": "https://vimeo.com/788719970",
                 "embedUrl": "https://player.vimeo.com/video/788719970"
+
             }
         }
-
     </script>
+
 
     <!-- End Structured data -->
 
