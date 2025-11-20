@@ -17,6 +17,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- structured data -->
     <script type="application/ld+json">
+    [
         {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
@@ -34,7 +35,74 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     "item": "https://nubart-sync.com/pricing.html"
                 }
             ]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Nubart Sync",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web-based",
+            "description": "Web-based video audio streaming solution that makes videos accessible by streaming synchronized audio tracks to visitors' smartphones. No hardware or app required.",
+            "url": "https://nubart-sync.com/",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "Basic Setup Fee",
+                    "description": "One-time setup fee including up to 4 hours online consultation",
+                    "price": "1500",
+                    "priceCurrency": "EUR",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "price": "1500",
+                        "priceCurrency": "EUR",
+                        "name": "One-time setup fee"
+                    },
+                    "availability": "https://schema.org/InStock",
+                    "availableDeliveryMethod": "https://schema.org/OnSitePickup",
+                    "businessFunction": "https://schema.org/LeaseOut"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Monthly Subscription",
+                    "description": "Monthly plan for up to 5 videos with unlimited languages per video",
+                    "price": "199",
+                    "priceCurrency": "EUR",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "price": "199",
+                        "priceCurrency": "EUR",
+                        "unitText": "MONTH",
+                        "name": "Monthly subscription (up to 5 videos)"
+                    },
+                    "availability": "https://schema.org/InStock",
+                    "availableDeliveryMethod": "https://schema.org/OnSitePickup",
+                    "businessFunction": "https://schema.org/LeaseOut"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Annual Subscription",
+                    "description": "Annual plan for up to 5 videos with unlimited languages per video",
+                    "price": "2199",
+                    "priceCurrency": "EUR",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "price": "2199",
+                        "priceCurrency": "EUR",
+                        "unitText": "YEAR",
+                        "name": "Annual subscription (up to 5 videos)"
+                    },
+                    "availability": "https://schema.org/InStock",
+                    "availableDeliveryMethod": "https://schema.org/OnSitePickup",
+                    "businessFunction": "https://schema.org/LeaseOut"
+                }
+            ],
+            "provider": {
+                "@type": "Organization",
+                "name": "Nubart",
+                "url": "https://nubart-sync.com/"
+            }
         }
+    ]
     </script>
 
     <!-- End Structured data -->

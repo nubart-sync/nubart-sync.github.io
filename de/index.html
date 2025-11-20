@@ -20,6 +20,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     <script type="application/ld+json">
+    [
         {
             "@context": "https://schema.org",
             "@type": "Service",
@@ -27,9 +28,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             "name": "Nubart SYNC",
             "url": "https://nubart-sync.com/de/",
             "inLanguage": "de",
-            "description": "Nubart SYNC verbindet vor Ort installierte Videodisplays mit synchronisiertem mehrsprachigem Audio, das über QR-Code auf die Smartphones der Besucher gestreamt wird. Keine App, keine Hardware, kein Broadcasting – vollständig browserbasiert und latenzfrei. Ideal für Digital Signage, DooH, Außenbildschirme und Projection Mappings. In mehreren Ländern patentiert, einschließlich EU, Australien und anstehend in den USA.",
+            "description": "Nubart SYNC löst die Herausforderung, mehrsprachiges Audio für öffentliche Videodisplays ohne Apps, Kopfhörer oder Broadcasting-Hardware bereitzustellen. Es streamt perfekt synchronisiertes Audio direkt auf die Smartphones der Besucher per QR-Code-Scan. Die browserbasierte Lösung macht App-Downloads, Audio-Geräte-Verleih oder teure Broadcasting-Systeme überflüssig und macht Videoinhalte sofort in mehreren Sprachen zugänglich. Ideal für Museen, Ausstellungen, Digital Signage, Außendisplays, Projection Mappings und überall dort, wo stumme oder einsprachige Videos das Publikumsengagement einschränken. Patentiert in der EU, Australien und Patent anstehend in den USA.",
+            "serviceType": "Digital Signage Audio-Lösung",
             "additionalType": "https://schema.org/TechnologyService",
+            "category": ["Museumstechnologie", "Digital Out-of-Home Audio", "Barrierefreiheitslösung", "Mehrsprachiges Audio-Streaming"],
             "areaServed": "Worldwide",
+            "audience": {
+                "@type": "Audience",
+                "audienceType": "Museen, Ausstellungen, Digital-Signage-Betreiber, Außendisplay-Veranstaltungsorte, Kulturinstitutionen"
+            },
             "provider": {
                 "@type": "Organization",
                 "@id": "https://www.nubart.eu/#organization",
@@ -63,7 +70,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 "contentUrl": "https://vimeo.com/476386299",
                 "embedUrl": "https://player.vimeo.com/video/476386299"
             }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Wie funktioniert die Implementierung von Nubart Sync?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Wir geben Ihnen Zugang zu einem passwortgeschützten Kundenbereich, in dem Sie Ihre Videos verwalten können. Die Implementierung ist sehr einfach und gut dokumentiert. Unser technisches Team wird Sie jedoch in der ersten Phase persönlich unterstützen."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Muss es für jede Sprache einen unterschiedlichen QR-Code geben?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nein, es sei denn, Sie bevorzugen es so. Unsere generierte Website für die Audiowiedergabe enthält ein Sprachmenü, in dem zwischen den Sprachen gewechselt werden kann."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Welche maximale Videoauflösung wird von Nubart Sync unterstützt?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Es gibt keine Beschränkung, da die finale Videodatei lokal abgespielt werden kann. Nur für erste Tests empfehlen wir, dasselbe Video in niedriger Auflösung hochzuladen, damit es zu Testzwecken abgespielt werden kann."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Wie implementiere ich Nubart Sync in einem Brightsign Player?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Detaillierte Videoanleitungen und PDF-Dokumentation für die Implementierung von Nubart Sync mit Brightsign-Playern sind verfügbar. Der Implementierungsprozess ist unkompliziert und umfasst eine Schritt-für-Schritt-Anleitung zur Integration des Synchronisationssystems mit Brightsign Digital-Signage-Playern."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Welche Parameter muss mein Netzwerk erfüllen, um Nubart Sync zu implementieren?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stellen Sie sicher, dass in Ihrer Netzwerkkonfiguration unsere Domain nub.art auf der Whitelist steht und unbegrenzte ausgehende HTTPS-POST-Anfragen an diese Domain erlaubt sind. Die für das Synchronisierungssignal erforderliche Bandbreite ist sehr gering."
+                    }
+                }
+            ]
         }
+    ]
     </script>
 
     <!-- End Structured data -->

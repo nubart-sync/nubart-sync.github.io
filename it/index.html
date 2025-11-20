@@ -15,51 +15,109 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "@id": "https://nubart-sync.com/#service",
-            "name": "Nubart SYNC",
-            "url": "https://nubart-sync.com/it/",
-            "inLanguage": "it",
-            "description": "Nubart SYNC collega i display video installati in loco con audio multilingue sincronizzato trasmesso sui smartphone dei visitatori tramite codice QR. Senza app, senza hardware, senza broadcasting: completamente basato su browser e senza latenza. Ideale per digital signage, DooH, schermi esterni e projection mapping. Brevettato in diversi paesi inclusi UE, Australia e in attesa negli Stati Uniti.",
-            "additionalType": "https://schema.org/TechnologyService",
-            "areaServed": "Worldwide",
-            "provider": {
-                "@type": "Organization",
-                "@id": "https://www.nubart.eu/#organization",
-                "name": "Nubart GmbH",
-                "url": "https://www.nubart.eu/it/",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://www.nubart.eu/assets/img/logo-nubart.png"
+        [
+            {
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "@id": "https://nubart-sync.com/#service",
+                "name": "Nubart SYNC",
+                "url": "https://nubart-sync.com/it/",
+                "inLanguage": "it",
+                "description": "Nubart SYNC risolve la sfida di fornire audio multilingue per display video pubblici senza app, cuffie o hardware di trasmissione. Attraverso un semplice codice QR, gli spettatori possono istantaneamente riprodurre in streaming audio multilingue sincronizzato sui propri smartphone—completamente basato su browser con zero latenza. Perfetto per digital signage, video out-of-home, projection mapping e accessibilità. Protetto da brevetti in diversi paesi tra cui UE e Australia, con brevetto in attesa negli Stati Uniti.",
+                "serviceType": "Soluzione Audio per Digital Signage",
+                "category": [
+                    "Tecnologia per Musei",
+                    "Audio Digital Out-of-Home",
+                    "Soluzione di Accessibilità",
+                    "Streaming Audio Multilingue"
+                ],
+                "additionalType": "https://schema.org/TechnologyService",
+                "areaServed": "Worldwide",
+                "audience": {
+                    "@type": "Audience",
+                    "audienceType": "Museums, cultural institutions, retailers, advertisers, and organizations with public video displays"
+                },
+                "provider": {
+                    "@type": "Organization",
+                    "@id": "https://www.nubart.eu/#organization",
+                    "name": "Nubart GmbH",
+                    "url": "https://www.nubart.eu/it/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://www.nubart.eu/assets/img/logo-nubart.png"
+                    }
+                },
+                "image": [
+                    "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.webp",
+                    "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.png",
+                    "https://nubart-sync.com/assets/img/schema/4x3-nubart-sync.png",
+                    "https://nubart-sync.com/assets/img/schema/16x9-nubart-sync-multilingual-museums.png"
+                ],
+                "potentialAction": {
+                    "@type": "ContactAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://nubart-sync.com/it/prezzi.html",
+                        "description": "Contatta il team vendite per informazioni su prezzi e servizi"
+                    }
+                },
+                "video": {
+                    "@type": "VideoObject",
+                    "name": "Nubart Sync - Sincronizzazione audio-video: video in loco, audio sul tuo smartphone.",
+                    "description": "Nubart Sync abbina i video sul posto con colonne sonore sincronizzate. La colonna sonora sincronizzata viene trasmessa agli smartphone delle persone tramite un codice QR.",
+                    "thumbnailUrl": "https://nubart-sync.com/assets/img/thumbnails/IT-nubart-sync-video-thumbnail.png",
+                    "uploadDate": "2020-11-05",
+                    "contentUrl": "https://vimeo.com/584495944",
+                    "embedUrl": "https://player.vimeo.com/video/584495944"
                 }
             },
-            "image": [
-                "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.webp",
-                "https://nubart-sync.com/assets/img/schema/1x1-nubart-sync.png",
-                "https://nubart-sync.com/assets/img/schema/4x3-nubart-sync.png",
-                "https://nubart-sync.com/assets/img/schema/16x9-nubart-sync-multilingual-museums.png"
-            ],
-            "potentialAction": {
-                "@type": "ContactAction",
-                "target": {
-                    "@type": "EntryPoint",
-                    "urlTemplate": "https://nubart-sync.com/it/prezzi.html",
-                    "description": "Contatta il team vendite per informazioni su prezzi e servizi"
-                }
-            },
-            "video": {
-                "@type": "VideoObject",
-                "name": "Nubart Sync - Sincronizzazione audio-video: video in loco, audio sul tuo smartphone.",
-                "description": "Nubart Sync abbina i video sul posto con colonne sonore sincronizzate. La colonna sonora sincronizzata viene trasmessa agli smartphone delle persone tramite un codice QR.",
-                "thumbnailUrl": "https://nubart-sync.com/assets/img/thumbnails/IT-nubart-sync-video-thumbnail.png",
-                "uploadDate": "2020-11-05",
-                "contentUrl": "https://vimeo.com/584495944",
-                "embedUrl": "https://player.vimeo.com/video/584495944"
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Come funziona l'implementazione di Nubart Sync?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ti diamo accesso a un'area clienti protetta da password dove potrai gestire i tuoi video. L'implementazione è molto semplice e ben documentata. Tuttavia, il nostro team tecnico ti supporterà personalmente nella prima fase."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Deve esserci un codice QR diverso per ogni lingua?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "A meno che tu non lo voglia. La pagina web generata per la riproduzione dell'audio contiene un menu per passare da una lingua all'altra (è meglio provarlo da soli con la nostra demo)."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Qual è la risoluzione video massima supportata da Nubart Sync?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Non c'è alcuna limitazione, in quanto il file video può essere riprodotto in locale. Tuttavia, all'inizio ti consigliamo di caricare lo stesso video a bassa risoluzione per poterlo testare e verificare che sia tutto a posto."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quali sono le istruzioni per implementare Nubart Sync su un lettore Brightsign?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ecco un video con le istruzioni: https://vimeo.com/nubart/nubart-sync-on-brightsign. Puoi scaricarle in formato PDF dal nostro sito web."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quali parametri deve soddisfare la mia rete per implementare Nubart Sync?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Si assicuri che la sua configurazione di rete abbia il nostro dominio 'nub.art' nella whitelist e che consenta richieste HTTPS POST in uscita senza limiti a questo dominio. La larghezza di banda richiesta per il segnale di sincronizzazione è molto bassa."
+                        }
+                    }
+                ]
             }
-        }
-
+        ]
     </script>
 
 
